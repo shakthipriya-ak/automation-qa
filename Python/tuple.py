@@ -1,0 +1,5 @@
+t=(1,2,'aks',14.25)
+l=list(t)
+l.pop()
+print(t)
+print(l)

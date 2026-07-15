@@ -1,4 +1,19 @@
-tools = ["Selenium", "PyTest", "Git", "Jenkins"]
-
-print(tools[0])
-print(tools[2])
+a=[1,2,3,4,5]
+print(type(a))
+a.append(6)
+a.append('aks')
+a.append(1)
+print(a)
+print(a[1])
+a.append(14.25)
+print(a)
+print(a[0])
+a.insert(0,11)
+print(a[0])
+print(a)
+a[0]=12
+print(a)
+a.pop(5)
+print(a)
+a.pop()
+print(a)

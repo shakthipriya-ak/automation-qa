@@ -1,0 +1,11 @@
+d={"name":"ak",
+   "age":"22",
+   "loc":"py",
+   "job":{"2years":"sde"}}
+print(d)
+print(d.keys())
+print(d.values())
+d['colour']='blue'
+print(d)
+print(d.keys())
+print(d.values())
